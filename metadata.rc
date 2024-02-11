@@ -8,12 +8,12 @@ BEGIN
   BEGIN
     BLOCK "040904E4"
     BEGIN
-	    VALUE "CompanyName", "SylvainStak"
-      VALUE "FileDescription", "Collection of arcade games built with raylib"
+	    VALUE "CompanyName", "Raylib Template"
+      VALUE "FileDescription", "Raylib Template"
       VALUE "FileVersion", "1.0.0"
-      VALUE "InternalName", "arcade_collection"
-      VALUE "LegalCopyright", "(c) 2024 Sylvain Afonso (@SylvainStak)"
-      VALUE "ProductName", "Arcade Collection"
+      VALUE "InternalName", "raylib_template"
+      VALUE "LegalCopyright", "(c) 2024 Raylib Template"
+      VALUE "ProductName", "Raylib Template"
       VALUE "ProductVersion", "1.0.0"
     END
   END

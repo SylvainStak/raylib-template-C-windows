@@ -23,7 +23,7 @@ metadata:
 	windres $(METADATA_RAW) -o $(METADATA_COMPILED) --target=pe-x86-64
 
 clean:
-	rm -rf space_invaders.exe game.zip metadata.rc.data release
+	rm -rf release.exe game.zip metadata.rc.data release
 
 release:
 	mkdir -p release
