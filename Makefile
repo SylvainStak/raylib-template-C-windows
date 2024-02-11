@@ -13,7 +13,7 @@ LDLIBS = -lraylib -lopengl32 -lgdi32 -lwinmm
 SOURCE_FILES = $(wildcard $(SRC_DIR)/*.c) $(wildcard $(SRC_DIR)/**/*.c)
 
 
-# Compile for debug and execute .exe file
+# Compile for debug and execute .exe file (Default behaviour when running "make" in the terminal)
 debug: compile_debug
 	./\$(PROJECT_NAME).exe
 
