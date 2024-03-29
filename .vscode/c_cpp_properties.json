@@ -2,17 +2,14 @@
     "configurations": [
         {
             "name": "Win32",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/Program Files/w64devkit/bin/gcc.exe",
+            "defines": ["DEBUG", "_DEBUG", "UNICODE", "_UNICODE"],
             "includePath": [
-                "C:/raylib/raylib/**"
+                "${workspaceFolder}/../raylib/src",
+                "${workspaceFolder}/../raygui/src"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "C:/raylib/w64devkit/bin/gcc.exe",
-            "cStandard": "c99",
-            "intelliSenseMode": "windows-gcc-x64"
+            "cStandard": "c99"
         }
     ],
     "version": 4

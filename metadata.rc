@@ -1,4 +1,4 @@
-GLFW_ICON ICON "assets/exeicon.ico"
+GLFW_ICON ICON "exeicon.ico"
 
 1 VERSIONINFO
 FILEVERSION     1,0,0,0
@@ -8,12 +8,12 @@ BEGIN
   BEGIN
     BLOCK "040904E4"
     BEGIN
-	    VALUE "CompanyName", "Raylib Template"
-      VALUE "FileDescription", "Raylib Template"
+	    VALUE "CompanyName", "SylvainStak"
+      VALUE "FileDescription", "Example"
       VALUE "FileVersion", "1.0.0"
-      VALUE "InternalName", "raylib_template"
-      VALUE "LegalCopyright", "(c) 2024 Raylib Template"
-      VALUE "ProductName", "Raylib Template"
+      VALUE "InternalName", "example"
+      VALUE "LegalCopyright", "(c) 2024 SylvainStak"
+      VALUE "ProductName", "Example"
       VALUE "ProductVersion", "1.0.0"
     END
   END
